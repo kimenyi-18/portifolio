@@ -1,0 +1,249 @@
+body{
+	background-color: rgb(12,12,12);
+}
+a{
+	color: rgb(149,156,155);
+	font-weight: 400px;
+	font-size:18px;
+	text-decoration: none;
+	margin-left: 50px;
+	line-height:32px; 
+}
+div{
+	margin-left: 100px;
+}
+.imglogo{position: absolute;
+	cursor: pointer;
+}
+
+	}
+	.maindv{
+		margin: 150px 0 0 100px;}
+		.mypc{
+	    float: left;
+	    border-radius: 3px;"
+	}
+	.paruno{
+		margin-left: 590px;
+		color: rgb(29,221,188);
+		font-size: 30px;
+	}
+		.hd{
+		margin-left: 600px;
+		color: white;
+		font-size: 50px;"
+	}
+	.hhd{
+	    margin-left: 600px;
+	    color:rgb(29,221,188);
+	    font-size:50px;
+	}
+	.pr{
+		color: rgb(149,156,155);
+		margin-left: 610px;
+		margin-right: 300px;
+		}
+		.lastp{
+		color: white; 
+		font-size:30px; 
+		margin-left: 615px;
+		}
+		.btndwn{background-color:rgb(12,12,12);
+			color:rgb(29,221,188);
+			margin-left: 650px;
+			border: 3px solid rgb(29,221,188); 
+			text-transform: uppercase;
+			padding: 5px 20px 5px 20px;
+			border-radius: 4px;
+			cursor: pointer;
+			}
+			.hdmore{
+				color: rgb(29,221,188);
+				padding: 10px;
+				margin-left: 20px;
+			}
+			.pp{
+             color:rgb(29,221,188);
+			 margin: 30px;
+			}
+			
+			.hdabt{
+				color: rgb(29,221,188);
+				
+			}
+			.parabt{
+				color: rgb(149,156,155);
+	            font-weight: 400px;
+	            font-size:18px;
+
+			}
+			.ctabt{
+				color: white;
+			}
+			.divabt{
+		
+                padding: 100px;
+			}
+			.hdsrvc{
+				color: rgb(29,221,188);
+			}
+			.hdsrv{
+				color: white;
+			}
+			.psvr{
+			color: rgb(149,156,155);
+	            font-weight: 400px;
+	            font-size:18px;	 
+	            }
+	            .divservice{
+                
+                padding: 100px;
+	            }
+			
+			
+			.contact-form {
+  background-color:  rgb(29,221,188);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 40px;
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 450px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(12,12,12);
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: rgb(12,12,12);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+.bodybckgrnd{
+  background-color: rgb(12,12,12);
+}
+/* === removing default button style ===*/
+.button {
+  margin-left: 300px;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+ cursor: pointer;
+}
+
+/* button styling */
+.button {
+  --border-right: 6px;
+  --text-stroke-color: rgb(29,221,188);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color:  rgb(29,221,188);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid  rgb(29,221,188);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px  rgb(29,221,188);
+}
+/* hover */
+.button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px  rgb(29,221,188));
+}
+.fa-brands-fa-instagram{
+	background-color: rgb(29,221,188);
+	
+}
+.fa-instagram {
+  background-color: #e4405f;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.fa-twitter{
+	color: white;
+	background-color: skyblue; 
+	padding: 10px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.fa-facebook{
+	color: rgb(51,153,255);
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	margin-top: 20px;
+
+}
+
+
+
+
+
+
+
