@@ -27,6 +27,7 @@ div{
 		margin-left: 590px;
 		color: rgb(29,221,188);
 		font-size: 30px;
+		margin-top: 100px;
 	}
 		.hd{
 		margin-left: 600px;
@@ -41,7 +42,9 @@ div{
 	.pr{
 		color: rgb(149,156,155);
 		margin-left: 610px;
-		margin-right: 300px;
+		margin-right: 30px;
+		word-spacing:5px;
+		font-size: 25px;
 		}
 		.lastp{
 		color: white; 
@@ -109,6 +112,7 @@ div{
   width: 500px;
   margin: auto;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .contact-form label {
@@ -161,6 +165,8 @@ textarea {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+  
+
 }
 
 .contact-form button[type="submit"]:hover {
@@ -240,9 +246,47 @@ textarea {
 	margin-top: 20px;
 
 }
+.hdstyle{color: rgb(29,221,188);
+	margin-left: 140px;
+	 margin-top: 50px;
+}
+.divstyl{
+	color: rgb(149,156,155);
+	padding: 50px;
+	margin-right:100px;
+	word-spacing: 5px; 
+}
+.ppstyle{
+	margin-right: 300px;
+	font-size: 25px;
+}
+.spnstyl{
+	color: white;
+}
+.divstly{
+	background-color:rgb(29,221,188); 
+	margin: 0%;
+	border-radius: 8px;
+	margin-top:3px;
+}
+.paragrpstly{
+	margin-left: 550px;
+padding:10px;
+font-size: 20px;
+}
+.minidv{
+	margin-left: 900px;
+	padding-top: 20px; 
 
+}
+.minipara{
+	font-size:30px; 
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 
-
+}
 
 
 
